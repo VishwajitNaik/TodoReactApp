@@ -1,0 +1,40 @@
+/* TodoCard.css */
+
+/* Style for the TODO card container */
+.todo-card {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Style for completed TODO cards */
+  .todo-card.completed {
+    background-color: #e0e0e0;
+    text-decoration: line-through;
+  }
+  
+  /* Style for the TODO text */
+  .todo-card .todo-text {
+    flex-grow: 1;
+  }
+  
+  /* Style for the "Complete" button */
+  .todo-card .complete-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-card .complete-button:hover {
+    background-color: #45a049;
+  }
+  
